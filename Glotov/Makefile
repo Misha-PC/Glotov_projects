@@ -1,2 +1,2 @@
 all:
-	g++ main.cpp bookkeeping.cpp -o bookkeeping
+	g++ main.cpp bookkeeping.cpp -o bookkeeping.out
