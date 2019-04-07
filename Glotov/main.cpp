@@ -3,19 +3,20 @@
 #include "bookkeeping.h"
 
 int main(){
-  Bookkeeping mom{"Naden/'ka", 41, 50000};
-  Bookkeeping dad{"Den", 45, 100000};
-  Bookkeeping son{"Nikita", 18, 5000};
+  Bookkeeping* arr = new Bookkeeping[3];
+  arr[0].setName("Nadejda");
+  arr[0].setAge(41);
+  arr[0].setMoney(50000);
 
-  mom.setName("Nadejda");
-  mom.setAge(40);
-  mom.setMoney(70000);
+  arr[1].setMeta("Den", 45, 100000);
+  arr[2].setMeta("Nikita", 18, 5000);
 
-  std::cout<<    dad.getName()   <<
-       "\n"<<    dad.getAge()    <<
-       "\n"<<    dad.getMoney()  <<"\n";
+  std::cout<<    arr[0].getName()   <<
+       "\n"<<    arr[0].getAge()    <<
+       "\n"<<    arr[0].getMoney()  <<"\n";
 
-  mom.print();
+  arr[1].print();
+  arr[2].print();
   return 0;
 }
 

@@ -2,12 +2,10 @@
 #include <iostream>
 #include "bookkeeping.h"
 
-Bookkeeping::Bookkeeping(std::string name, int age, double money)
+Bookkeeping::Bookkeeping()
 {
-  Bookkeeping::setMeta(name, age, money);
-  std::cout << name << "\tinitialized. \n";
+  std::cout << m_name << "\tinitialized. \n";
 }
-
 Bookkeeping::~Bookkeeping()
 {
   std::cout << m_name <<"\tdestroyed\n";

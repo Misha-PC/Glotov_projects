@@ -11,7 +11,7 @@ public:
   int m_age;
   double m_money;
 
-  Bookkeeping(std::string, int, double);
+  Bookkeeping();
   ~Bookkeeping();
 
   void print();
