@@ -16,9 +16,9 @@ Bookkeeping::~Bookkeeping()
 
 void Bookkeeping::print()
 {
-  std::cout << "Name: " << m_name <<
-              "\nAge: " << m_age <<
-           "\nMoney: $" << m_money << '\n';
+  std::cout << "Name: " <<    m_name   <<
+              "\nAge: " <<    m_age    <<
+           "\nMoney: $" <<    m_money  << '\n';
 }
 
 

@@ -9,9 +9,12 @@ int main(){
 
   mom.setName("Nadejda");
   mom.setAge(40);
-  mom.setMoney(70000.20);
+  mom.setMoney(70000);
 
-  std::cout<< dad.getName()<<"\n"<<dad.getAge()<<"\n"<< dad.getMoney() <<"\n";
+  std::cout<<    dad.getName()   <<
+       "\n"<<    dad.getAge()    <<
+       "\n"<<    dad.getMoney()  <<"\n";
+
   mom.print();
   return 0;
 }
