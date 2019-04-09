@@ -17,6 +17,10 @@ int main(){
 
   arr[1].print();
   arr[2].print();
+
+  char end_;
+  std::cin >> end_;
+  
   return 0;
 }
 
